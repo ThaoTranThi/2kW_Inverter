@@ -1,0 +1,117 @@
+Protel Design System Design Rule Check
+PCB File : E:\2023\1\Inverter_2kW_Sweden_up\DesignFiles\Inverter_2kW.PcbDoc
+Date     : 2/19/2023
+Time     : 11:18:06 AM
+
+Processing Rule : Clearance Constraint (Gap=1.5mm) (InNetClass('+HV')),(Not InNetClass('+HV'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1.5mm) (InNetClass('-HV')),(Not InNetClass('-HV'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.6mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.6mm) (All),(((Not InAnyNet) And IsPad))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1.5mm) (InNetClass('VAC_L')),(Not InNetClass('VAC_L'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1.5mm) (InNetClass('VAC_N')),(Not InNetClass('VAC_N'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1.5mm) (InNet('Earth')),(Not InNet('Earth'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1.5mm) (InNetClass('GND_USB')),(Not InNetClass('GND_USB'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=1.4mm) (All),(KeepoutRestrictionsCopper)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=1mm) (Preferred=0.15mm) (WithinRoom('BGA'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=5mm) (Preferred=0.15mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.1mm) (Max=0.16mm) (Prefered=0.1mm)  and Width Constraints (Min=0.16mm) (Max=0.5mm) (Prefered=0.2mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.1mm) (Max=10mm) (Prefered=0.1mm)  and Width Constraints (Min=0.16mm) (Max=0.5mm) (Prefered=0.2mm) (InDifferentialPair('USB_D'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.1mm) (Max=10mm) (Prefered=0.1mm)  and Width Constraints (Min=0.16mm) (Max=0.5mm) (Prefered=0.2mm) (InDifferentialPair('ETH_RD'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.1mm) (Max=10mm) (Prefered=0.1mm)  and Width Constraints (Min=0.16mm) (Max=0.5mm) (Prefered=0.2mm) (InDifferentialPair('USB'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.1mm) (Max=10mm) (Prefered=0.1mm)  and Width Constraints (Min=0.16mm) (Max=0.5mm) (Prefered=0.2mm) (InDifferentialPair('ETH_TD'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.5mm) (Conductor Width=1mm) (Air Gap=0.5mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.35mm) (OnLayer('Mid-Layer 1'))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.35mm) (OnLayer('Mid-Layer 2'))
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=15mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.1mm) (Max=2.5mm) (isVia And WithinRoom('MCU_IO'))
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.4mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=20mm) (InNetClass('JTAG'))
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=2.3mm) (InDifferentialPairClass('DP_ETH'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=1.27mm) (InNetClass('Flash'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=14.2mm) (InDifferentialPair ('USB_D'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=8mm) (InNetClass('RMII'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=8mm) (InNetClass('SD'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=2mm) (InNetClass('MD'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=10mm) (InNetClass('XIP'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=10mm) (InNetClass('SSD'))
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:02
